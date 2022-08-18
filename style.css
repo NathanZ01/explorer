@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    cursor:default;
+}
+
+body {
+    background: #fde8cd;
+}
+
+ul {
+    list-style: none;
+}
+
+/*HEADER*/
+header {
+    padding: 32px 0;
+    background-image: linear-gradient(to right, rgba(254, 215, 170, 0.56), rgba(247, 224, 197, 0.8)), url(imgs/cafe.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: padding-box;
+    background-size: 100%;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px rgba(158, 122, 75, 0.61);
+    
+}
+
+header h1{
+  margin-bottom: 4px;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+header h1 span {
+    color: #995000;
+}
+
+/*FONTS*/
+h1, h2, h3, .price{
+    font-family: 'Roboto Serif', serif;
+    text-transform: uppercase;
+    color: #2C2D2A;
+}
+
+header p {
+    font-size: 14px;
+    color: rgba(0,0,0,0.7);
+    line-height: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*SIZE HEADER/SECTION */
+header,
+section {
+    max-width: 310px;
+    margin: 0 auto;
+}
+
+
+section {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-image: linear-gradient(to right, rgba(254, 215, 170, 0.89), rgba(247, 224, 197, 0.90)), url(imgs/desenho-cafe.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: padding-box;
+    background-size: 100%;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px rgba(158, 122, 75, 0.61);
+    transition: all .3s;
+}
+.description{
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-menu{
+    border-radius: 4px;
+}
+
+section:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all .3s;
+}
+
+section h2 {
+    background: rgb(254, 215, 170);
+    padding: 8px 16px;
+    text-align: center;
+
+    margin-bottom: 24px;
+    transition: .3s;
+
+    font-size: 18px;
+}
+
+ul li {
+    margin-bottom: 16px;
+    display: flex;
+}
+
+
+li .details {
+    max-width: 240px;
+}
+
+.details h3 {
+    margin-bottom: 8px; 
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.details p{
+    color: rgba(0,0,0,0.6);
+    font-size: 14px;
+    line-height: 21px;
+}
+
+footer{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+}
+
+i{
+    margin: 15px;
+}
+
+a:link{
+    color: rgb(153, 80, 0);
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(153, 80, 0);
+    text-decoration: none;
+    
+}
